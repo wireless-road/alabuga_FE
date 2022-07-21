@@ -1,0 +1,10 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg" width="24.852" height="25.725" class="magnifying-glass" viewBox="0 0 24.852 25.725">
+	<defs>
+		<style>.magnifying-glass .a{fill:#4ebcfa;stroke:#4ebcfa;stroke-width:0.8px;}</style>
+	</defs>
+	<g transform="translate(0.4 0.4)">
+		<path class="a" d="M19.9,15.76H17.532V13.394a.394.394,0,0,0-.789,0V15.76H14.377a.394.394,0,0,0,0,.789h2.366v2.366a.394.394,0,0,0,.789,0V16.549H19.9a.394.394,0,1,0,0-.789Z" transform="translate(-7.413 -6.453)"/>
+		<path class="a" d="M24.852,24.129l-6.993-7.272a9.89,9.89,0,1,0-.7.634l7.009,7.29a.471.471,0,0,0,.679-.652ZM1.924,9.882a8.941,8.941,0,1,1,8.941,8.941A8.951,8.951,0,0,1,1.924,9.882Z" transform="translate(-0.983)"/>
+	</g>
+</svg>

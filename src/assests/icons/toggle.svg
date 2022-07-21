@@ -1,0 +1,8 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg" width="42" height="22" class="toggle" viewBox="0 0 42 22">
+	<defs>
+		<style>.toggle .a{fill:#acb5c0;}.toggle .b{fill:#fff;}</style>
+	</defs>
+	<rect class="a" width="42" height="22" rx="11"/>
+	<circle class="b" cx="9" cy="9" r="9" transform="translate(3 2)"/>
+</svg>

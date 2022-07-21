@@ -1,0 +1,8 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg" class="check" width="24" height="24" viewBox="0 0 24 24">
+	<defs>
+		<style>.check .a{fill:#716dff;}.check .b{fill:#fff;stroke:#fff;stroke-width:0.4px;}</style>
+	</defs>
+	<rect class="a" width="24" height="24" rx="4"/>
+	<path class="b" d="M14.046,51.27a.568.568,0,0,0-.8-.014l-.014.014L3.97,60.528.963,57.52a.568.568,0,0,0-.8.8l3.409,3.409a.568.568,0,0,0,.8,0l9.659-9.659A.568.568,0,0,0,14.046,51.27Z" transform="translate(5 -44.424)"/>
+</svg>

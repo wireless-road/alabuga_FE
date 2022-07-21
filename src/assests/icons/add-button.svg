@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .add-button.a{fill:#acb5c0;opacity:0.5;}
+            .add-button.b,.add-button.c{fill:#fff;}
+            .add-button.b{stroke:#707070;opacity:0;}
+            .add-button.c{stroke:#fff;stroke-width:0.5px;}
+            .add-button.d{stroke:none;}
+            .add-button.e{fill:none;}
+        </style>
+    </defs>
+    <g transform="translate(0.085 -0.335)">
+        <g transform="translate(-0.085 0.335)">
+            <rect class="a add-button" width="24" height="24" rx="12"/>
+        </g>
+        <g class="b add-button" transform="translate(18.663 5.001) rotate(90)">
+            <rect class="d add-button" width="13.997" height="13.997"/>
+            <rect class="e add-button" x="0.5" y="0.5" width="12.997" height="12.997"/>
+        </g>
+        <g transform="translate(6.915 7.082)">
+            <g transform="translate(5.089 0) rotate(45)">
+                <path class="c add-button" d="M4,3.6,7.115.48a.281.281,0,0,0-.4-.4L3.6,3.2.48.082a.281.281,0,0,0-.4.4L3.2,3.6.082,6.717a.281.281,0,0,0,.4.4L3.6,4,6.717,7.115a.281.281,0,1,0,.4-.4Z"/>
+            </g>
+        </g>
+    </g>
+</svg>

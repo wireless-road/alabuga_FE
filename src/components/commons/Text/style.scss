@@ -1,0 +1,84 @@
+@import "../../../styles/variables";
+
+.custom-text-body {
+  margin-bottom: 0px;
+  color: inherit;
+  font-size: inherit;
+  &.text-sm {
+    font-size: $font-size-small;
+  }
+  &.text-md, &.text-md40 {
+    font-size: $font-size-medium;
+  }
+  &.text-lg {
+    font-size: $font-size-large;
+  }
+  &.ellipsis-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  &.pointer {
+    cursor: pointer;
+  }
+}
+
+.text-custom-tooltip > .tooltip-inner {
+  font-size: $font-size-small;
+}
+
+.whitePopoverBackground > .tooltip-inner {
+  background: #fff;
+  box-shadow: 0 3px 6px #00000029;
+  border: 1px solid #D5DADF;
+  color: #41485A;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.whitePopoverBackground.show {
+  opacity: 1;
+}
+
+.whitePopoverBackground[x-placement^=top] > .arrow:before {
+  border-top-color: #fff !important;
+  top: -1px;
+}
+
+.whitePopoverBackground[x-placement^=bottom] > .arrow:before {
+  border-bottom-color: #fff !important;
+  bottom: -1px;
+}
+
+.whitePopoverBackground[x-placement^=left] > .arrow:before {
+  border-left-color: #fff !important;
+  left: -1px;
+}
+
+.whitePopoverBackground[x-placement^=right] > .arrow:before {
+  border-right-color: #fff !important;
+  right: -1px;
+}
+
+.text-loader-wrapper {
+  margin-bottom: 0px;
+
+  &.text-sm,
+  &.text-sm .text-loader {
+    height: $font-size-small;
+    width: 100%;
+  }
+
+  &.text-md,
+  &.text-md .text-loader {
+    height: $font-size-medium;
+    width: 100%;
+  }
+
+  &.text-lg,
+  &.text-lg .text-loader {
+    height: $font-size-large;
+    width: 100%;
+  }
+}

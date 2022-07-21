@@ -1,0 +1,39 @@
+@import "../../../styles/variables";
+
+.text-heading {
+  color: tundora;
+  font-weight: 600;
+  &.custom-size-xs {
+    font-size: $font-size-medium;
+    line-height: $line-height-medium;
+    font-weight: 400;
+  }
+  &.custom-size-sm {
+    font-size: $font-size-large;
+    line-height: $line-height-large;
+  }
+  &.custom-size-md {
+    font-size: $font-size-xlarge;
+    line-height: $line-height-xlarge;
+  }
+  &.custom-size-lg {
+    font-size: $font-size-xxlarge;
+    line-height: $line-height-xxlarge;
+  }
+  &.ellipsis-heading {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+}
+
+.heading-loader {
+  width: random(50%) + 20%;
+  height: 20px;
+  margin: 10px 0px;
+  .text-loader {
+    height: 100%;
+  }
+}
+

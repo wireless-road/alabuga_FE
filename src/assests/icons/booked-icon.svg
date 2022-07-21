@@ -1,0 +1,4 @@
+<svg id="pending-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectangle_1010" data-name="Rectangle 1010" width="20" height="20" rx="2" fill="#f5f6f7" opacity="0"/>
+  <path id="bookmark" d="M9.625,0H.606A.338.338,0,0,0,.269.337V12.976a.674.674,0,0,0,1.068.549l3.779-2.709,3.779,2.709a.675.675,0,0,0,1.068-.549V.337A.338.338,0,0,0,9.625,0ZM9.288,12.976l-3.975-2.85a.338.338,0,0,0-.393,0L.944,12.976V.675H9.288Zm0,0" transform="translate(5.254 3.377)" fill="#4a5162"/>
+</svg>

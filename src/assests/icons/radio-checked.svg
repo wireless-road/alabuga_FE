@@ -1,0 +1,13 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="radio-checked" viewBox="0 0 20 20">
+	<defs>
+		<style>.radio-checked .a{fill:#fff;stroke:#acb5c0;}.radio-checked .b{fill:#44dec5;}.radio-checked .c{stroke:none;}.radio-checked .d{fill:none;}</style>
+	</defs>
+	<g class="a">
+		<circle class="c" cx="10" cy="10" r="10"/>
+		<circle class="d" cx="10" cy="10" r="9.5"/>
+	</g>
+	<g transform="translate(3 3)">
+		<circle class="b" cx="7" cy="7" r="7"/>
+	</g>
+</svg>

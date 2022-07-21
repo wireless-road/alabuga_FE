@@ -1,0 +1,9 @@
+version: "2.4"
+
+services:
+  alabuga_frontend:
+    build: .
+    ports:
+      - "3000:3000"
+    tty: true
+    stdin_open: true

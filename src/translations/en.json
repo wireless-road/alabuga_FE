@@ -1,0 +1,290 @@
+{
+  "app": {
+    "app_name": "SnapBooks",
+    "loadingTitle": "Loading..."
+  },
+  "common_phrases": {
+    "something_went_wrong": "Something went wrong",
+    "please_try_later": "Please, try later",
+    "no_active_contracts": "There are no active contracts",
+    "coming_soon": "(coming soon)"
+  },
+  "common_components": {
+    "upload_file": {
+      "drag_n_drop_text": "Drop files here",
+      "or_text": "or",
+      "choose_files_text": "Browse File"
+    },
+    "gridview": {
+      "no_data_title": "Data not found",
+      "no_data": "Not found any records",
+      "see_more": "see more"
+    },
+    "input": {
+      "placeholder": "Type here",
+      "placeholder_search": "Search",
+      "placeholder_search_or_select": "Search or select...",
+      "placeholder_search_by_keyword": "Search by keyword..."
+    },
+    "select": {
+      "placeholder": "Select..."
+    },
+    "export_button": {
+      "title": "Export"
+    },
+    "button": {
+      "ok": "OK",
+      "cancel": "Cancel"
+    }
+  },
+  "not_found_page": {
+    "not_found_title": "Page Not Found",
+    "not_found_message": "The link you clicked may be broken or the page may have been removed.",
+    "not_found_link_text": "Back to HomePage"
+  },
+  "login_page": {
+    "title": "Log In",
+    "slogan": "Alabuga. Test task. Khamidullin Almaz.",
+    "password_label": "Password",
+    "email_label": "Email",
+    "forgot_password_link": "Forgot password?",
+    "remember_me_checkbox": "Remember me",
+    "login_button": "LOG IN"
+  },
+  "forgot_password_page": {
+    "title": "Forgot Password",
+    "sub_title": "Tell us your email address, and we'll get you back on track in on time",
+    "we_sent_email_check_inbox": "We sent an email to the email address you provided. Check your inbox for further instructions for resetting your password",
+    "if_you_remember_your_password": "If you remember your password just - ",
+    "reset_password_button": "RESET PASSWORD",
+    "email_placeholder": "Enter your email",
+    "login_link": "LOG IN"
+  },
+  "reset_password_page": {
+    "title": "New Password",
+    "new_password": "New Password",
+    "repeat_password": "Repeat Password",
+    "save_button": "SAVE",
+    "broken_link": "Sorry, the link in broken",
+    "input_password_min_8_characters": "Please input password (min 8 characters)",
+    "password_doesnt_match": "Passwords doesn't match",
+    "password_placeholder": "Enter your password"
+  },
+  "header": {
+    "menu": {
+      "reports": "Reports",
+      "reports_menu": {
+        "trial_balance": "Population report"
+      },
+      "logout": "Logout"
+    }
+  },
+  "footer": {
+    "description": "Interaction platform for continuous accounting",
+    "links": {
+      "about_us": "About Us",
+      "community": "Community",
+      "overview": "Overview",
+      "documents": "Documents",
+      "messages": "Messages",
+      "feedback": "Feedback"
+    },
+    "contact_us": "Contact Us:",
+    "enter_you_message_here": "Enter you message here",
+    "send_button": "Send"
+  },
+  "accounting_questions_card": {
+    "upload_msg": "Drop here to send {{name}} more documents",
+    "answer_prefix": "Answer:",
+    "answer_button": "Answer"
+  },
+  "accountant_container": {
+    "global_livestream": "Global livestream",
+    "document_count": "Documents",
+    "messages": "Messages Threads",
+    "didnt_find_necessary_thread": "Didn't find necessary thread?",
+    "start_new": "Start new",
+    "show_more_threads": "Show more threads"
+  },
+  "client_container": {
+    "accountant_title": "Accountant",
+    "accounting_questions": "Accounting Questions",
+    "messages": "Messages Threads",
+    "upload_error": "Please only upload files that end in types:",
+    "pending_docs_count": "documents pending booking",
+    "didnt_find_necessary_thread": "Didn't find necessary thread?",
+    "start_new": "Start new",
+    "show_more_threads": "Show more threads"
+  },
+  "document_statuses": {
+    "PAID": "Paid",
+    "DRAFT": "Draft",
+    "PENDING_ANSWER": "Waiting for Answer",
+    "PENDING": "Pending",
+    "BOOKED": "Booked",
+    "Archived": "Archived"
+  },
+  "document_detail": {
+    "document_url_invalid": "The document url is invalid",
+    "send_message_button": "Send Message",
+    "status": "Status:",
+    "last_update": "Last Update:",
+    "doc_type": "Doc Type:",
+    "supplier": "Supplier:",
+    "questions_from_accountant": "Questions from Accountant"
+  },
+  "documents": {
+    "title": "Documents",
+    "gridview": {
+      "name": "Name",
+      "document_type": "Doc Type",
+      "supplier": "Supplier",
+      "last_update": "Last Update",
+      "status": "Status",
+      "questions": "Questions"
+    }
+  },
+  "posts": {
+    "title": "Posts",
+    "gridview": {
+      "name": "Name",
+      "document_type": "Doc Type",
+      "document_date": "Doc Date",
+      "supplier": "Supplier",
+      "last_update": "Last Update",
+      "status": "Status",
+      "questions": "QA",
+      "category": "Category",
+      "period": "Period"
+    },
+    "do_you_want_to_delete_item": "Are you sure you want to delete this item?",
+    "new": "New"
+  },
+  "post_detail": {
+    "add_supplier": "Add New Supplier",
+    "debit_and_credit_not_equal": "Debit and credit columns do not equal. Please double check",
+    "difference_between_debit_and_credit": "Difference between Debit and Credit amount:",
+    "the_account_have_been_used_client": "The account {{account_code}} and tax code {{tax_code}} have been used {{count}} times before for this businesspartner and client combination",
+    "the_account_have_been_used_organization": "The account {{account_code}} and tax code {{tax_code}} have been used {{count}} times before for this businesspartner and client industry combination",
+    "the_account_have_been_used_industry": "The account {{account_code}} and tax code {{tax_code}} have been used {{count}} times before for this businesspartners industry and client industry combination",
+    "fill_in_required_fields": "Please fill in all the required fields",
+    "document_url_invalid": "The document url is invalid",
+    "ask_question_button": "Ask Question",
+    "reverse_button": "Reverse",
+    "status": "Status:",
+    "document_ype": "Document Type",
+    "customer": "Customer",
+    "supplier": "Supplier",
+    "suggestion": "Suggestion:",
+    "date": "Date",
+    "due_date": "Due date",
+    "invoice_number": "Invoice number",
+    "receipt_number": "Receipt number",
+    "payment_type": "Payment type",
+    "bank_account": "Bank account",
+    "payment_reference": "Payment reference",
+    "gross_amount": "Gross amount",
+    "net_amount": "Net amount",
+    "description": "Description",
+    "line_account": "Account",
+    "line_debit": "Debit",
+    "line_credit": "Credit",
+    "line_tax_code": "Tax Code",
+    "line_description": "Description",
+    "line_tips": "* If you have any question about the doc - you can send question to client the before book",
+    "save_draft_button": "Save for later",
+    "book_button": "Book",
+    "questions_to_client": "Questions to the Client",
+    "statement_provided": "Statement provided by user",
+    "statement_waiting": "Waiting for statement from user",
+    "payment_method_private": "Paid privately by card or bank",
+    "unanswered_status": "Unanswered",
+    "answered_status": "Answered",
+    "answer_status": "Answer",
+    "statement_category": "Category",
+    "add_customer": "Add Customer",
+    "document_type": "Document type",
+    "archived_document_category": "Document category",
+    "archived_document_period": "Document period",
+    "add_bank_account": "Add bank account",
+    "total": "Total amount",
+    "advanced_mode": "Advanced mode"
+  },
+  "create_supplier_modal": {
+    "title": "Create new businesspartner",
+    "type": "Type:",
+    "person_type": "Person",
+    "organization_type": "Organization",
+    "name": "Name",
+    "organization_id": "Organization ID",
+    "email": "Email",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "country": "Country",
+    "add_button": "Add",
+    "organization_number": "Organization Number",
+    "recently_used": "Recently used",
+    "business_partner": "Business partner",
+    "search": "Search"
+  },
+    "reverse_document_modal": {
+        "reverse": "Reverse",
+        "cancel": "cancel"
+    },
+  "trial_balance": {
+    "title": "Matching Results Report",
+    "inspected_text": "Text to research",
+    "pattern": "Text to find",
+    "gridview": {
+      "id": "id",
+      "surname": "surname",
+      "age": "age",
+      "boss": "boss",
+      "salary": "salary",
+      "status": "status",
+      "name": "name"
+    },
+    "revenue": "Revenue",
+    "expenses": "Expenses",
+    "dividends": "Dividends"
+  },
+  "date_interval": {
+    "from_date": "From Date",
+    "to_date": "To Date",
+    "month_names": {
+      "January": "Jan",
+      "February": "Feb",
+      "March": "Mar",
+      "April": "Apr",
+      "May": "May",
+      "June": "Jun",
+      "July": "Jul",
+      "August": "Aug",
+      "September": "Sep",
+      "October": "Oct",
+      "November": "Nov",
+      "December": "Dec"
+    },
+    "static_date_ranges": {
+      "this_week": "This week",
+      "last_week": "Last week",
+      "this_month": "This month",
+      "last_month": "Last month",
+      "this_year": "This year",
+      "last_year": "Last year",
+      "this_year_to_date": "This year to date",
+      "last_year_to_date": "Last year to date",
+      "term1": "1. Term",
+      "term2": "2. Term",
+      "term3": "3. Term",
+      "term4": "4. Term",
+      "term5": "5. Term",
+      "term6": "6. Term",
+      "quarter1": "1. Quarter",
+      "quarter2": "2. Quarter",
+      "quarter3": "3. Quarter",
+      "quarter4": "4. Quarter"
+    }
+  }
+}

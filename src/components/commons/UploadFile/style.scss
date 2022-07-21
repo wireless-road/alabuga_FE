@@ -1,0 +1,39 @@
+.upload-card {
+  background: var(--unnamed-color-f5f6f7) 0% 0% no-repeat padding-box;
+  border: 1px dashed #ACB5C0;
+  border-radius: 4px;
+  position: relative;
+  padding: 15px 0;
+  &.only-button {
+    border: none;
+    display: inline-block;
+    padding: 0;
+    .upload-button {
+      margin: 0;
+    }
+  }
+  &:not(.only-button) {
+    background: var(--unnamed-color-f5f6f7) 0% 0% no-repeat padding-box;
+  }
+  &.drag-accept {
+    border-color: var(--unnamed-color-716dff);
+  }
+  &.drag-reject {
+    border-color: red;
+  }
+  .upload-message {
+    color: var(--unnamed-color-41485a);
+    font-size: 12px;
+  }
+  .upload-or-message {
+    color: #D5D5D5;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .icon-upload-big {
+    text-align: center;
+    margin-top: 40px;
+  }
+}

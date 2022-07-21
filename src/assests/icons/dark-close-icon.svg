@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="dark-close-icon" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .dark-close-icon .a {
+            fill:#fff;
+            stroke:#f5f6f7;
+            }
+            .dark-close-icon .a, .dark-close-icon .b {
+            opacity:0;
+            }
+            .dark-close-icon .b, .dark-close-icon .c {
+            fill:#41485a;
+            stroke:#41485a;
+            }
+            .dark-close-icon .c {
+            stroke-width:0.4px;
+            }
+            .dark-close-icon .d {
+            stroke:none;
+            }
+            .dark-close-icon .e {
+            fill:none;
+            }
+        </style>
+    </defs>
+    <g transform="translate(34.234 34) rotate(180)"><g class="a" transform="translate(2.234 2)"><rect class="d" width="32" height="32" rx="2"/><rect class="e" x="0.5" y="0.5" width="31" height="31" rx="1.5"/></g><g transform="translate(1112.772 107.539) rotate(180)"><g transform="translate(1086 81)"><g class="b" transform="translate(-0.461 -0.461)"><rect class="d" width="18" height="18"/><rect class="e" x="0.5" y="0.5" width="17" height="17"/></g><g transform="translate(0.93 0.93)"><g transform="translate(0 0)"><path class="c" d="M8.527,7.68l6.655-6.655a.6.6,0,0,0-.848-.848L7.679,6.831,1.024.176a.6.6,0,0,0-.848.848L6.83,7.68.175,14.334a.6.6,0,0,0,.848.848L7.679,8.528l6.655,6.655a.6.6,0,1,0,.848-.848Z" transform="translate(0 -0.001)"/></g></g></g></g></g>
+</svg>

@@ -1,0 +1,140 @@
+.popover-nolimit-width {
+  max-width: none;
+  background: #f5f6f7;
+}
+.flex-auto {
+  flex: 1 1 auto
+}
+#popover-date-intervalpicker {
+
+  .flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rdrDefinedRangesWrapper {
+    width: 280px !important;
+    margin-left: 30px;
+    background: #f5f6f7;
+    border-right: none;
+  }
+
+  .rdrStaticRanges {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .rdrStaticRange {
+      flex: 40%;
+      margin: 3px 5px;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      color: #41485A;
+    }
+
+    .rdrStaticRangeLabel {
+      padding: 5px 15px !important;
+    }
+  }
+
+  .rdrMonthAndYearWrapper {
+    background-color: #41485a;
+    color: white;
+    padding: 0 !important;
+    font-size: 16px;
+    height: 40px;
+
+    .rdrMonthAndYearPickers {
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+
+
+  .PrevBtn {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+
+  .monthNextPrevBtn {
+    display: block;
+    margin: 0 0.833em;
+    padding: 0;
+    border: 0;
+    background: transparent;
+
+    #Ellipse_15 {
+      fill: transparent;
+    }
+
+    #Arrow {
+      fill: #acb5c0;
+    }
+
+    &:hover {
+      #Arrow {
+        fill: white;
+      }
+
+      #Ellipse_15 {
+        fill: var(--unnamed-color-716dff);
+      }
+    }
+  }
+
+  .rdrSelected {
+    left: 9px !important;
+    right: 9px !important;
+    border-radius: 100% !important;
+  }
+
+  .rdrStaticRangeSelected {
+    color: white !important;
+    background-color: var(--unnamed-color-716dff) !important;
+    border-color: var(--unnamed-color-716dff) !important;
+    font-weight: 400 !important;
+  }
+
+  .rdrStaticRange:hover .rdrStaticRangeLabel, .rdrStaticRange:focus .rdrStaticRangeLabel {
+    color: inherit !important;
+    background: inherit !important;
+  }
+
+  .rdrDayEndPreview {
+    right: 9px !important;
+    top: 4px !important;
+    bottom: 4px !important;
+  }
+
+  .rdrDayStartPreview {
+    left: 9px !important;
+    top: 4px !important;
+    bottom: 4px !important;
+  }
+
+  .rdrDayHovered .rdrDayNumber:after {
+    left: 9px !important;
+    right: 9px !important;
+    border-radius: 100%;
+    top: 0 !important;
+    bottom: 0 !important;
+  }
+
+  .dateintervalpicker-footer {
+    text-align: right;
+    padding: 10px 0 20px;
+    border-top: 1px solid #fff;
+  }
+}

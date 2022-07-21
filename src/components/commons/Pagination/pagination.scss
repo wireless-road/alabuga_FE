@@ -1,0 +1,62 @@
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+@import "../../../styles/variables";
+
+.pagination {
+  .pagination-info {
+    padding-top: 10px;
+  }
+  .paginate-container {
+    margin: 0;
+    white-space: nowrap;
+    text-align: right;
+  }
+  ul.paginate-buttons {
+    margin: 2px 0;
+    white-space: nowrap;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    display: -webkit-box;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: $border-radius;
+  }
+  .page-link {
+    position: relative;
+    display: block;
+    padding: .3rem .75rem;
+    line-height: 1.25;
+    color: $text-secondary-color;
+    background-color: white;
+    border: $border-width solid var(--unnamed-color-ebedf2);
+    border-radius: $border-radius;
+    outline: none !important;
+    &::after {
+      outline: none !important;
+    }
+  }
+  .page-item {
+    height: 30px;
+    .page-link {
+      height: 30px;
+      font-size: 13px;
+    }
+    &.disabled .page-link {
+      color: $text-secondary-color;
+      pointer-events: none;
+      cursor: auto;
+      background-color: white;
+      border-color: var(--unnamed-color-ebedf2);
+    }
+    &.active .page-link {
+      z-index: unset;
+      color: white;
+      background-color:  var(--unnamed-color-716dff);
+      border-color:  var(--unnamed-color-716dff);
+    }
+    &:not(:first-child) .page-link {
+      margin-left: 5px;
+    }
+  }
+}

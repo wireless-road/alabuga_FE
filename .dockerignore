@@ -1,0 +1,12 @@
+.git
+.gitignore
+.gitlab-ci.yml
+.dockerignore
+.sonar
+id_rsa
+node_modules
+cdk*
+cdk.out*
+.next
+.vscode
+

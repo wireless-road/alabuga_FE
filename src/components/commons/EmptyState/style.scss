@@ -1,0 +1,18 @@
+// -- define variables -->
+@import '../../../styles/variables';
+
+.custom-empty-state {
+  padding-top: 60px;
+
+  .description-image,
+  .description-message {
+    margin-bottom: 30px;
+  }
+  .description-message {
+    color: $text-secondary-color-light;
+  }
+  
+  .description-title {
+    margin-bottom: 15px; 
+  }
+}

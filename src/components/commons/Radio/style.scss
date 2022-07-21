@@ -1,0 +1,31 @@
+// -- Variables -->
+@import "../../../styles/variables";
+
+.radio-button {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: inherit;
+  cursor: pointer;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0px;
+  font-size: 14px;
+  &:focus,
+  &:hover,
+  &:active {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .label {
+    padding-left: 27px;
+    padding-top: 2px;
+    display: inline-block;
+    color: var(--unnamed-color-1d1d27);
+  }
+  .icon {
+    position: absolute;
+  }
+}

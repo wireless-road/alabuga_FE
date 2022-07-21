@@ -1,0 +1,10 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="radio-uncheck" viewBox="0 0 20 20">
+	<defs>
+		<style>.radio-uncheck .a{fill:#fff;stroke:rgba(172,181,192,0.5);}.radio-uncheck .b{stroke:none;}.radio-uncheck .c{fill:none;}</style>
+	</defs>
+	<g class="a">
+		<circle class="b" cx="10" cy="10" r="10"/>
+		<circle class="c" cx="10" cy="10" r="9.5"/>
+	</g>
+</svg>

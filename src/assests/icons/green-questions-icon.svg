@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" class="green-questions-icon" viewBox="0 0 25 25">
+    <defs>
+        <style>
+            .green-questions-icon .a {
+            fill:#fff;
+            stroke:#707070;
+            opacity:0;
+            }
+            .green-questions-icon .b {
+            fill:#44dec5;
+            }
+            .green-questions-icon .c {
+            stroke:none;
+            }
+            .green-questions-icon .d {
+            fill:none;
+            }
+        </style>
+    </defs>
+    <g class="a"><rect class="c" width="25" height="25"/><rect class="d" x="0.5" y="0.5" width="24" height="24"/></g><g transform="translate(4 4)"><path class="b" d="M235.868,363.268a.6.6,0,1,1-.6-.6A.6.6,0,0,1,235.868,363.268Zm0,0" transform="translate(-226.268 -349.686)"/><path class="b" d="M9,18a9,9,0,1,1,9-9A9.01,9.01,0,0,1,9,18ZM9,1.125A7.875,7.875,0,1,0,16.875,9,7.884,7.884,0,0,0,9,1.125Zm0,0"/><path class="b" d="M167.882,91.782a.45.45,0,0,1-.45-.45v-.606a1.353,1.353,0,0,1,.9-1.273,1.862,1.862,0,0,0,1.2-1.571,1.65,1.65,0,1,0-3.3,0,.45.45,0,1,1-.9,0,2.55,2.55,0,0,1,5.1,0,2.761,2.761,0,0,1-1.8,2.42.45.45,0,0,0-.3.425v.605A.45.45,0,0,1,167.882,91.782Zm0,0" transform="translate(-158.882 -81.845)"/></g>
+</svg>

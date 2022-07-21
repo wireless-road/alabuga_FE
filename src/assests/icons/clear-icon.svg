@@ -1,0 +1,13 @@
+<svg id="clear-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Rectangle_3423" data-name="Rectangle 3423" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="18" height="18" stroke="none"/>
+    <rect x="0.5" y="0.5" width="17" height="17" fill="none"/>
+  </g>
+  <g id="close-icon" transform="translate(8.774 8.775)">
+    <g id="close_1_" data-name="close (1)" transform="translate(-7.775 -7.775)" opacity="0.4">
+      <g id="Group_83" data-name="Group 83">
+        <path id="Path_27" data-name="Path 27" d="M8.337,7.509,14.844,1a.587.587,0,1,0-.83-.83L7.508,6.679,1,.173A.587.587,0,0,0,.172,1L6.678,7.509.172,14.015a.587.587,0,0,0,.83.83L7.508,8.338l6.507,6.507a.587.587,0,1,0,.83-.83Z" transform="translate(0 -0.001)" fill="#acb5c0"/>
+      </g>
+    </g>
+  </g>
+</svg>

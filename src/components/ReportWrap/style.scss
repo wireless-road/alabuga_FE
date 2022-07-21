@@ -1,0 +1,85 @@
+.report-page-wrap {
+  padding: 30px 50px;
+  position: relative;
+
+  .report-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .filter-header {
+    padding-top: 20px;
+    .filter-row {
+      display: flex;
+      justify-content: space-between;
+
+      .input-control {
+        margin: 0;
+      }
+
+      & > * {
+        flex: 1;
+      }
+
+      .wide {
+        flex-grow: 3;
+      }
+      & > *:not(:last-child) {
+        margin-right: 10px;
+      }
+
+      .shrinked {
+        flex: 0.1;
+      }
+    }
+  }
+
+  .select {
+    font-size: 14px;
+    font-weight: 600;
+
+    & > div {
+      min-height: 35px;
+      //height: 35px;
+      border: 1px solid #D5DADF;
+      border-radius: 2px;
+
+      span[class*="-indicatorSeparator"] {
+        display: none;
+      }
+    }
+  }
+
+  .custom-datepicker {
+    max-width: 130px;
+  }
+
+  .report-list {
+    padding-top: 25px;
+
+    .report-list-header {
+      height: 45px;
+      background: var(--unnamed-color-1d1d27) 0% 0% no-repeat padding-box;
+      color: white;
+      padding: 0 30px;
+      font-size: 12px;
+
+      & > * {
+        line-height: 45px;
+      }
+    }
+
+    .report-list-group {
+      color: var(--unnamed-color-1d1d27);
+      font-size: 12px;
+      & > :nth-child(odd) {
+        background: var(--unnamed-color-f5f6f7) 0% 0% no-repeat padding-box;
+      }
+      & > * {
+        line-height: 45px;
+        padding: 0 30px;
+      }
+    }
+  }
+}

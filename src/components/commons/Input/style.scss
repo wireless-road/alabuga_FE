@@ -1,0 +1,101 @@
+.input-control {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  position: relative;
+  &.no-padding {
+    margin: 0px;
+  }
+  input {
+    width: 100%;
+    min-width: 0;
+    border: 1px solid #D5DADF;
+    border-radius: 2px;
+    height: 45px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--unnamed-color-1d1d27);
+    outline: none !important;
+    caret-color: var(--unnamed-color-716dff);
+    &::-webkit-input-placeholder { /* Edge */
+      color: #ACB5C0;
+    }
+    
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #ACB5C0;
+    }
+    
+    &::placeholder {
+      color: #ACB5C0;
+    }
+  }
+  .label {
+    color: var(--unnamed-color-41485a);
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 5px;
+
+    &.required:after {
+      content: '*';
+      color: var(--unnamed-color-ff8886);
+    }
+  }
+  .password-icon {
+    position: absolute;
+    right: 10px;
+    top: 33px;
+  }
+  &.input-sm {
+    input {
+      height: 30px;
+      font-size: 12px;
+    }
+  }
+  &.input-md {
+    input {
+      height: 35px;
+      font-size: 12px;
+    }
+  }
+  &.input-lg {
+    input {
+      height: 40px;
+      font-size: 13px;
+      letter-spacing: 0px;
+    }
+  }
+  &.invalid {
+    .label {
+      color: #ff0000;
+    }
+    input {
+      border-color: #ff000080;
+    }
+  }
+  .autocomplete-items {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    border-radius: 2px;
+    margin-top: 5px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 12px #EAEBEE40;
+    border: 1px solid #EBEDF280;
+    padding: 7px 0px;
+    font-size: 14px;
+    color: #41485A;
+    margin-bottom: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .autocomplete-item {
+      padding: 10px 10px;
+      user-select: none;
+      &:hover {
+        background: #e0e0e4 0% 0% no-repeat padding-box;
+        color: var(--unnamed-color-716dff);
+      }
+    }
+  }
+}

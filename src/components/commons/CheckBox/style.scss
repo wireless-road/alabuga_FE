@@ -1,0 +1,18 @@
+.checkbox {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 16px auto;
+  column-gap: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--unnamed-color-716dff);
+  font-weight: 300;
+  span {
+    color: var(--unnamed-color-41485a);
+    font-size: 14px;
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}

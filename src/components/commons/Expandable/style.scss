@@ -1,0 +1,40 @@
+.expandable {
+  .expandable-header {
+    height: 45px;
+    background: var(--unnamed-color-f5f6f7) 0% 0% no-repeat padding-box;
+    padding-left: 35px;
+    padding-top: 13px;
+    font-size: 13px;
+    position: relative;
+    letter-spacing: 0.39px;
+    & > .header-icon {
+      margin-right: 7px;
+      position: relative;
+      bottom: 2px;
+    }
+    .toggle-button {
+      position: absolute;
+      right: 30px;
+      width: 22px;
+      height: 22px;
+      border-radius: 22px;
+      padding-left: 4px;
+      transition: transform .3s ease;
+      top: 50%;
+      transform: translateY(-50%);
+      &:hover {
+        #arrow-up-icon-2 {
+          fill: #716dff;
+          transition: fill .5s ease;
+        }
+      }
+      &:not(.expanded) {
+        transform: rotate(180deg) translateY(50%);
+        transition: transform .3s ease;
+      }
+      svg {
+        margin-top: -3px;
+      }
+    }
+  }
+}

@@ -1,0 +1,230 @@
+.client-container-page {
+  display: grid;
+  grid-template-columns: auto 0px 60px;
+  max-width: 1366px;
+  margin: 0px auto;
+  background-color: white;
+  &.expanded {
+    grid-template-columns: auto 0px 430px;
+    // .right-panel {
+    //   display: unset;
+    // }
+  }
+  &:not(.expanded) {
+    .expandable-column svg {
+      transform: rotate(180deg);
+    }
+  }
+  .title {
+    color: var(--unnamed-color-1d1d27);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .title2 {
+    color: var(--unnamed-color-1d1d27);
+    font-weight: 600;
+    font-size: 14px;
+    .sub-title {
+      font-weight: normal;
+    }
+  }
+  .counter {
+    width: 16px;
+    height: 16px;
+    background: #44DEC5;
+    color: #fff;
+    font-size: 11px;
+    line-height: 16px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .expandable {
+    .counter {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      margin: 0 6px;
+    }
+  }
+  .right-notification-icon {
+    position: relative;
+    margin-top: 7px;
+    padding-left: 15px !important;
+
+    .counter {
+      position: absolute;
+      top: -4px;
+      right: 13px;
+    }
+
+    &:first-child {
+      margin-top: 50px;
+    }
+    span {
+      &:hover {
+        .b {
+          stroke: var(--unnamed-color-716dff);
+          fill: var(--unnamed-color-716dff);
+        }
+      }
+    }
+  }
+  .expandable-column {
+    padding-top: 33px;
+    padding-bottom: 30px;
+    border-right: 1px solid var(--unnamed-color-ebedf2);
+    z-index: 1;
+    & > span {
+      margin-left: -16px;
+      width: 33px;
+      height: 33px;
+      display: inline-block;
+      cursor: pointer;
+      #Ellipse_15, #Arrow {
+        transition: fill .5s ease;
+      }
+      &:hover {
+        #Ellipse_15 {
+          fill: #716dff;
+          transition: fill .5s ease;
+        }
+        #Arrow {
+          fill: white;
+          transition: fill .5s ease;
+        }
+      }
+    }
+  }
+  .right-panel {
+    padding-top: 33px;
+    padding-bottom: 30px;
+    // display: none;
+    & > div:not(.no-padding) {
+      padding-left: 35px;
+      padding-right: 50px;
+    }
+    .padding {
+      padding-left: 35px;
+      padding-right: 50px;
+    }
+    .divider {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .expandable {
+      margin-bottom: 10px;
+    }
+  }
+  .client-info {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 5px;
+    .client-progress {
+      & > div:first-child {
+        font-size: 12px;
+        color: var(--unnamed-color-41485a);
+        letter-spacing: 0.36px;
+        padding-top: 7px;
+        padding-bottom: 5px;
+      }
+      & > div:last-child {
+        font-size: 12px;
+        letter-spacing: 0.36px;
+        color: #ACB5C0;
+      }
+    }
+    .profile-image {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+    }
+  }
+  .messages-header {
+    display: grid;
+    grid-template-columns: 1fr 160px;
+    column-gap: 10px;
+    padding-top: 10px;
+    & > div {
+      &:first-child {
+        font-size: 11px;
+        opacity: 0.6;
+        padding-top: 7px;
+      }
+    }
+  }
+  .messages {
+
+    .unread-channels {
+      padding: 10px 0;
+
+      .channel-item {
+        margin: 10px 0;
+        border: 1px solid #EBEDF2;
+        box-shadow: 0 6px 12px #EAEBEE40;
+      }
+    }
+
+    .show-mores {
+      text-align: right;
+      color: var(--unnamed-color-716dff);
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+  .answer-question-input {
+    position: relative;
+    .clear-icon, .save-icon {
+      position: absolute;
+      z-index: 1;
+      top: 0px;
+      padding-left: 8px;
+      padding-top: 8px;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    .save-icon {
+      width: 35px;
+      height: 35px;
+      background: var(--unnamed-color-44dec5) 0% 0% no-repeat padding-box;
+      border-radius: 0px 2px 2px 0px;
+      right: 0px;
+    }
+    .clear-icon {
+      width: 35px;
+      height: 35px;
+      right: 35px;
+      &:hover {
+        background-color: #f5f6f7;
+      }
+    }
+  }
+}
+
+.documents-uploaded-modal {
+  .content {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    button {
+      display: inline-block;
+      margin-top: -4px;
+      .link-button-text {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--unnamed-color-716dff);
+      }
+    }
+    .document-files {
+      text-decoration: underline;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+  .actions {
+    margin-top: 30px;
+    text-align: center;
+  }
+}

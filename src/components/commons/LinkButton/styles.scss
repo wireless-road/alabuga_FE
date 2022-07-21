@@ -1,0 +1,19 @@
+@import '../../../styles/variables';
+
+.custom-link-button {
+  padding: 0px;
+  outline: none !important;
+  &.btn-xs {
+    font-size: $font-size-small;
+  }
+  &.btn-sm {
+    font-size: $font-size-small;
+  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .link-button-text {
+    padding-right: 0.2rem;
+    color: $color-secondary;
+  }
+}

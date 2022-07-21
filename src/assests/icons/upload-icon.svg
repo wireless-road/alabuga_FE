@@ -1,0 +1,14 @@
+<svg id="upload-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Rectangle_3422" data-name="Rectangle 3422" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="16" height="16" stroke="none"/>
+    <rect x="0.5" y="0.5" width="15" height="15" fill="none"/>
+  </g>
+  <g id="upload_1_" data-name="upload (1)" transform="translate(2 1.457)">
+    <g id="Group_50" data-name="Group 50" transform="translate(0 0)">
+      <g id="Group_49" data-name="Group 49">
+        <path id="Path_15" data-name="Path 15" d="M31.318,319.4a.206.206,0,0,0-.206.206v3.719h-10.7V319.6a.206.206,0,0,0-.411,0v3.924a.206.206,0,0,0,.206.206H31.318a.206.206,0,0,0,.206-.206V319.6A.206.206,0,0,0,31.318,319.4Z" transform="translate(-20.003 -311.184)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+        <path id="Path_16" data-name="Path 16" d="M132.237,3.03l.005-.005L134.566.7v9.584a.206.206,0,1,0,.411,0V.7L137.3,3.025a.206.206,0,0,0,.291-.291L134.917.06a.206.206,0,0,0-.291,0h0l-2.674,2.674a.206.206,0,0,0,.286.3Z" transform="translate(-129.011 0)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

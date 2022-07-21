@@ -1,0 +1,13 @@
+.income-statement-report {
+
+  .report-list-header {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+  }
+  .account-code {
+    margin-top: 0;
+    div[class*="-menu"] {
+      min-width: 300px;
+    }
+  }
+}

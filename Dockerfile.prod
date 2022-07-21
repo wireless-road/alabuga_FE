@@ -1,0 +1,10 @@
+FROM node:14.16.1-alpine as node
+
+WORKDIR /app
+COPY ./ /app
+RUN npm install && npm run-script build:production
+
+FROM nginx:stable-alpine
+COPY --from=node /app/build/ /usr/share/nginx/html
+RUN /bin/rm -f /etc/nginx/conf.d/*
+COPY config /etc
